@@ -65,8 +65,6 @@ p.parsley-error {
   text-align: center;
 }
 
-
-
 /* Field Styles */
 
 textarea {
@@ -83,7 +81,8 @@ textarea {
 
 /* Title Styles */
 .title-bar {
-  background-color: #00457F;
+  background-color: #7c3aed;
+  border-radius: 15px;
   margin: 0 -3px;
 }
 
@@ -94,6 +93,15 @@ textarea {
 .title-text h2 {
   color: white;
   text-align: center;
+}
+
+
+.heading-text {
+  font-weight: 700;
+  color: white;
+  text-align: center;
+  line-height: 1.6;
+  margin: 10px auto;
 }
 
 /* Misc Styles */
@@ -120,9 +128,3 @@ textarea {
     width: 1170px;
   }
 }
-
-/* ///////////////////////////////// 
-//
-//  Form Specific Styles
-//  
-///////////////////////////////// */

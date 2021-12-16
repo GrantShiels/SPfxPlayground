@@ -20,6 +20,12 @@ import {
   DropdownMenuItemType,
   IDropdownOption,
 } from "office-ui-fabric-react/lib/Dropdown";
+import {
+  DatePicker,
+  Checkbox,
+  TextField,
+  MaskedTextField,
+} from "office-ui-fabric-react";
 
 import * as $ from "jquery";
 
@@ -47,7 +53,25 @@ export default class SpfxPlayground extends React.Component<
   public render(): React.ReactElement<ISpfxPlaygroundProps> {
     return (
       <div id="container">
-        <form id="frm"></form>
+        <form id="frm">
+          {/* Title Section */}
+          <div className="title-bar row">
+            <div className="top-logo col col-lg-3">
+              {/* <img src={require("../img/StepCHangeLogo.png")} width="200" /> */}
+            </div>
+            <div className="title-text col col-lg-6">
+              <h4 className="heading-text"> SPFx Playground </h4>
+            </div>
+            <div className="col col-lg-3"></div>
+          </div>
+
+          <div className="panel-body">
+            <div className="tab-pane fade in active ui-tabs-panel ui-widget-content ui-corner-bottom">
+
+              
+            </div>
+          </div>
+        </form>
       </div>
     );
   }
