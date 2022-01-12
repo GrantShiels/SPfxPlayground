@@ -27,6 +27,7 @@
     "office-ui-fabric-react": "6.214.0",
     "react": "16.8.5",
     "react-dom": "16.8.5",
+    "react-stepzilla": "^7.0.0",
     "sp-pnp-js": "^3.0.10"
   },
   "devDependencies": {

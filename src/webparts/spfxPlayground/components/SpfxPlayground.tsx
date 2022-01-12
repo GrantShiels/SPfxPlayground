@@ -26,6 +26,7 @@ import {
   TextField,
   MaskedTextField,
 } from "office-ui-fabric-react";
+import StepZilla from "react-stepzilla";
 
 import * as $ from "jquery";
 
@@ -98,5 +99,6 @@ export default class SpfxPlayground extends React.Component<
     //used to get the URL of the site
     baseURL = this.props.context.pageContext.site.absoluteUrl;
     await this.GetIPAddress();
+    console.log("Added step zilla")
   }
 }
